@@ -325,6 +325,7 @@ static size_t write_callback(void *data, size_t size, size_t nmemb,
 	}
 
 	memcpy(res + cg->res_len, data, add_len);
+	(res + cg->res_len)[add_len] = '\0';
 	cg->res_len = new_len;
 
 	return add_len;
