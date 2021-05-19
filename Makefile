@@ -3,6 +3,7 @@
 #
 # @author Ammar Faizi <ammarfaizi2@gmail.com> https://www.facebook.com/ammarfaizi2
 # @license GNU GPL-2.0
+# @link https://github.com/ammarfaizi2/GoogleTranslateC
 #
 # Google Translate scraper library.
 #

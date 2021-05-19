@@ -5,7 +5,10 @@
  *  Google Translate scraper library.
  *
  *  Copyright (C) 2021  Ammar Faizi
+ *
+ * https://github.com/ammarfaizi2/GoogleTranslateC
  */
+
 #include <stdio.h>
 #include <errno.h>
 #include <assert.h>

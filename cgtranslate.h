@@ -5,6 +5,8 @@
  *  Google Translate scraper library.
  *
  *  Copyright (C) 2021  Ammar Faizi
+ *
+ * https://github.com/ammarfaizi2/GoogleTranslateC
  */
 
 #ifndef CGTRANSLATE_H
