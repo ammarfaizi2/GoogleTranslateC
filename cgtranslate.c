@@ -316,7 +316,7 @@ static size_t write_callback(void *data, size_t size, size_t nmemb,
 	if ((new_len + 1u) >= cg->res_alloc) {
 		char *new_mem;
 
-		cg->res_alloc = (cg->res_alloc * 2ul) + 1ul;
+		cg->res_alloc = (cg->res_alloc * 2ul) + new_len + 2ul;
 		new_mem = realloc(res, cg->res_alloc);
 		if (!new_mem)
 			return 0;
