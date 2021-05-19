@@ -41,7 +41,7 @@ typedef struct _cgtranslate_t {
 	UCONST char			*UCONST res;
 	UCONST size_t			res_len;
 	UCONST size_t			res_alloc;
-	UCONST char			*clear_res;
+	UCONST char			*UCONST clear_res;
 
 	UCONST struct curl_slist	*UCONST hdr_list;
 } cgtranslate_t;
